@@ -1,0 +1,3 @@
+Hey there! I just finished an awesome project with the Odin Project, where I built a simple website using HTML. It was really neat to see how much goes into making even a basic site. The best part was seeing my work come to life as the website took shape.
+
+Along the way, I got to brush up on my Linux skills, work with Git and GitHub, and practice making conventional commits, which is super helpful when working with others. I also learned some cybersecurity tips for handling links and tabs. Plus, I got better at problem-solving, like fixing weird image issues and figuring out how different HTML elements work. Overall, it was a fun experience that taught me a lot about web development!
