@@ -7,12 +7,13 @@ body {
 }
 
 img {
-    width: 200px;
+    width: 100px;
 }
 
 ul {
     list-style: none;
 }
+/* This above needs a looking at yet. */
 
 .recipe-content {
     text-align: left;
@@ -31,8 +32,35 @@ ul li h2 {
     font-size: 16 px;
 }
 
-..recipe-card a {
+.recipe-card a {
     background-color: #fc9400;
     color: white;
     text-decoration: none;
 }
+/* THis is an experiement to see if I can make the links turn a different colour 
+when hovering as I saw in a CSS mdn doc example feb 11, 2025 */ 
+
+ul {
+    font-family: sans-serif;
+    display: flex;
+    list-style: none;
+    border: 1px solid #000;
+  }
+  
+  li {
+    margin: 5px;
+  }
+  
+  .links-list a {
+    background-color: rgb(179 57 81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block
+  }
+  
+  .links-list a:hover {
+    background-color: rgb(66 28 40);
+    color: #fff;
+  }
+  /* Above line is from experiment feb 11, 2025 */
