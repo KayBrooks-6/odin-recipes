@@ -1,11 +1,10 @@
 * {
     line-height: 1.5;
-    margin: 0;
-    padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 300px;
 }
 
 img {
@@ -15,11 +14,7 @@ img {
 ul {
     list-style: none;
 }
-/* This above needs a looking at yet. */
 
-p {
-    margin-bottom: 20px;
-}
 .recipe-card {
     width: 400px;
     text-align: center;
@@ -32,12 +27,16 @@ p {
     text-align: left;
 }
 
-h2,
-a {
+p {
+    margin-bottom: 20px;
+}
+
+.recipe-card h2,
+.recipe-card a {
     text-transform: uppercase;
 }
 
-.recipe-content.feature {
+.recipe-card.feature {
     border: 4px solid green;
 }
 
@@ -45,7 +44,7 @@ ul li h2 {
     font-size: 16 px;
 }
 
-.recipe-card a {
+.chinese-noodles {
     background-color: #fc9400;
     color: white;
     text-decoration: none;
@@ -63,11 +62,7 @@ ul {
     border: 1px solid #000;
   }
   
-  li {
-    margin: 5px;
-  }
-  
-  .links-list a {
+  .links-list {
     background-color: rgb(179 57 81);
     color: #fff;
     text-decoration: none;
@@ -75,7 +70,7 @@ ul {
     display: inline-block
   }
   
-  .links-list a:hover {
+  .links-list:hover {
     background-color: rgb(66 28 40);
     color: #fff;
   }
